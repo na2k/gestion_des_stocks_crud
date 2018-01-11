@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
+<<<<<<< HEAD
 -- Généré le :  jeu. 11 jan. 2018 à 10:25
+=======
+-- Généré le :  mer. 10 jan. 2018 à 14:52
+>>>>>>> 806f05f152938736da8c82f2896c119a77d220d4
 -- Version du serveur :  10.1.29-MariaDB
 -- Version de PHP :  7.1.12
 
@@ -25,6 +29,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 -- Structure de la table `images`
 --
 
@@ -40,6 +45,8 @@ CREATE TABLE `images` (
 -- --------------------------------------------------------
 
 --
+=======
+>>>>>>> 806f05f152938736da8c82f2896c119a77d220d4
 -- Structure de la table `produits`
 --
 
@@ -52,6 +59,7 @@ CREATE TABLE `produits` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
+<<<<<<< HEAD
 -- Déchargement des données de la table `produits`
 --
 
@@ -62,16 +70,21 @@ INSERT INTO `produits` (`id`, `nom`, `prix`, `description`, `image`) VALUES
 (6, 'a', '12345', 'aa', 'BTF-lettering-HDfull-square-600px.jpg');
 
 --
+=======
+>>>>>>> 806f05f152938736da8c82f2896c119a77d220d4
 -- Index pour les tables déchargées
 --
 
 --
+<<<<<<< HEAD
 -- Index pour la table `images`
 --
 ALTER TABLE `images`
   ADD PRIMARY KEY (`img_id`);
 
 --
+=======
+>>>>>>> 806f05f152938736da8c82f2896c119a77d220d4
 -- Index pour la table `produits`
 --
 ALTER TABLE `produits`
@@ -82,6 +95,7 @@ ALTER TABLE `produits`
 --
 
 --
+<<<<<<< HEAD
 -- AUTO_INCREMENT pour la table `images`
 --
 ALTER TABLE `images`
@@ -92,6 +106,12 @@ ALTER TABLE `images`
 --
 ALTER TABLE `produits`
   MODIFY `id` smallint(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+=======
+-- AUTO_INCREMENT pour la table `produits`
+--
+ALTER TABLE `produits`
+  MODIFY `id` smallint(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+>>>>>>> 806f05f152938736da8c82f2896c119a77d220d4
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

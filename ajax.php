@@ -9,3 +9,4 @@ if (isset($_POST["action"])) {
     echo json_encode(getProduct($_POST["id"]));
   }
 }
+?>
